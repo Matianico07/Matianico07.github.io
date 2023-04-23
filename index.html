@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi sitio web</title>
+    <title>Mi blog personal</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      nav {
+        float: left;
+        width: 20%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      nav li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      nav li a {
+        text-decoration: none;
+        color: #333;
+      }
+      
+      article {
+        float: left;
+        padding: 20px;
+        width: 80%;
+        background-color: white;
+      }
+      
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Bienvenido a mi sitio web</h1>
-    <p>¡Hola mundo!</p>
-  </body>
-</html>
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Mi sitio web</title>
-  </head>
-  <body>
-    <h1>Bienvenido a mi sitio web</h1>
-    <p>¡Hola mundo!</p>
+    <header>
+      <h1>Mi blog personal</h1>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h2>Bienvenido a mi blog</h2>
+        <p>¡Hola mundo! En este blog compartiré mis pensamientos e ideas sobre diversos temas. Espero que disfrutes de mis publicaciones.</p>
+      </article>
+    </section>
+    
+    <footer>
+      <p>Derechos reservados &copy; 2023</p>
+    </footer>
   </body>
 </html>
