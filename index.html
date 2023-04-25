@@ -79,7 +79,6 @@
       <nav>
         <ul>
           <li><a href="#">Inicio</a></li>
-          <div id="firebaseui-auth-container"></div>
           <li><a href="#Tutorial">Tutorial</a></li>
           <li><a href="#about">Acerca de nosotros:</a></li>
         </ul>
@@ -113,44 +112,9 @@
       <p>Si tienes alguna pregunta o sugerencia para la página, no dudes en ponerte en contacto con nosotros a través del siguiente correo electrónico: FanClubDeMessi@gmail.com</p>
     </section>
 
-    
     <footer>
       <p>Derechos reservados &copy; 2023</p>
     </footer>
-    
-    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-    
-    <script>
-      // Inicializa Firebase
-      var firebaseConfig = {
-        apiKey: "AIzaSyC0JdRrMRHzLvLhfGWuYP30Zw7TBese2-c",
-        authDomain: "TU_AUTH_DOMAIN",
-        projectId: "smartcanchasusm",
-        storageBucket: "TU_STORAGE_BUCKET",
-        messagingSenderId: "TU_MESSAGING_SENDER_ID",
-        appId: "TU_APP_ID"
-      };
-      firebase.initializeApp(firebaseConfig);
-
-      // Configura FirebaseUI
-      var uiConfig = {
-        signInSuccessUrl: 'TU_URL_DE_REDIRIGIR_TRAS_LOGIN_EXITOSO',
-        signInOptions: [
-          firebase.auth.EmailAuthProvider.PROVIDER_ID,
-          firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-          firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-          firebase.auth.TwitterAuthProvider.PROVIDER_ID,
-          firebase.auth.GithubAuthProvider.PROVIDER_ID
-        ],
-        tosUrl: 'TU_URL_DE_TERMINOS_Y_CONDICIONES',
-        privacyPolicyUrl: 'TU_URL_DE_POLITICA_DE_PRIVACIDAD'
-      };
-
-      // Inicializa FirebaseUI
-      var ui = new firebaseui.auth.AuthUI(firebase.auth());
-      ui.start('#firebaseui-auth-container', uiConfig);
-    </script>
   </body>
 </html>
 
