@@ -135,42 +135,6 @@
       </div>
       <button type="submit">Enviar</button>
     </form>
-
-    <script>
-      const form = document.getElementById('myForm');
-      const nameInput = document.getElementById('name');
-      const emailInput = document.getElementById('email');
-      const passwordInput = document.getElementById('password');
-      const nameError = document.getElementById('nameError');
-      const emailError = document.getElementById('emailError');
-      const passwordError = document.getElementById('passwordError');
-
-      form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        if (nameInput.value === '') {
-          nameError.textContent = 'Por favor, ingrese un nombre';
-        } else {
-          nameError.textContent = '';
-        }
-
-        if (emailInput.value === '') {
-          emailError.textContent = 'Por favor, ingrese un correo electrónico';
-        } else {
-          emailError.textContent = '';
-        }
-
-        if (passwordInput.value === '') {
-          passwordError.textContent = 'Por favor, ingrese una contraseña';
-        } else {
-          passwordError.textContent = '';
-        }
-
-        // Si no hay errores, enviar el formulario
-        if (nameInput.value !== '' && emailInput.value !== '' && passwordInput.value !== '') {
-          form.submit();
-        }
-      });
-    </script>
   </body>
 </html>
 
