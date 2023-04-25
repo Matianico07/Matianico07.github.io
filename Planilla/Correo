@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Correo electrónico de ejemplo</title>
+  </head>
+  <body>
+    <div style="background-color: #f2f2f2; padding: 20px;">
+      <h2 style="color: #333;">¡Hola!</h2>
+      <p>Este es un ejemplo de correo electrónico.</p>
+      <p>Este es el contenido del mensaje.</p>
+      <p>Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
+      <br />
+      <p>Saludos cordiales,</p>
+      <p>El equipo de ejemplo</p>
+    </div>
+  </body>
+</html>
