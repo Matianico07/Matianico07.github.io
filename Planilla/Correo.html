@@ -1,124 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Correo electrónico</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: #f1f1f1;
-			font-family: Arial, sans-serif;
-			font-size: 14px;
-			line-height: 1.5;
-		}
+  <head>
+    <title>Solicitud de arriendo de cancha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Estilo para el cuerpo del correo */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
 
-		.container {
-			width: 100%;
-			max-width: 600px;
-			margin: 0 auto;
-			background-color: #ffffff;
-			box-shadow: 0px 0px 20px #d6d6d6;
-			border-radius: 5px;
-			padding: 20px;
-		}
+      /* Estilo para el encabezado del correo */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #333;
+      }
 
-		.header {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			margin-bottom: 20px;
-		}
+      /* Estilo para los párrafos del correo */
+      p {
+        margin: 0 0 10px;
+      }
 
-		.header h1 {
-			margin: 0;
-			font-size: 24px;
-			font-weight: normal;
-			color: #333333;
-			line-height: 1.2;
-		}
+      /* Estilo para las listas del correo */
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
 
-		.logo img {
-			max-height: 50px;
-		}
+      li {
+        margin-bottom: 10px;
+      }
 
-		.sender-info {
-			display: flex;
-			align-items: center;
-		}
+      /* Estilo para los enlaces del correo */
+      a {
+        color: #0072c6;
+        text-decoration: none;
+      }
 
-		.sender-info img {
-			border-radius: 50%;
-			margin-right: 10px;
-		}
+      a:hover {
+        text-decoration: underline;
+      }
 
-		.sender-info span {
-			color: #999999;
-			font-size: 12px;
-		}
-
-		.subject {
-			font-size: 18px;
-			font-weight: normal;
-			color: #333333;
-			margin-bottom: 10px;
-		}
-
-		.message {
-			color: #555555;
-			line-height: 1.5;
-		}
-
-		.message img {
-			max-width: 100%;
-			margin-bottom: 20px;
-		}
-
-		.btn {
-			display: inline-block;
-			padding: 10px 20px;
-			background-color: #2c3e50;
-			color: #ffffff;
-			border-radius: 3px;
-			text-decoration: none;
-			margin-top: 20px;
-			margin-right: 10px;
-		}
-
-		.btn-secondary {
-			background-color: #eeeeee;
-			color: #333333;
-		}
-
-		.btn-primary:hover {
-			background-color: #34495e;
-		}
-
-		.btn-secondary:hover {
-			background-color: #dddddd;
-		}
-	</style>
-<head>
-  <title>Solicitud de arriendo de cancha de [fútbol/futbol/tenis]</title>
-</head>
+      /* Estilo para las notas al pie del correo */
+      .footnote {
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
   <body>
-    <p>Asunto: Solicitud de arriendo de cancha de [fútbol/futbol/tenis]</p>
-    <p>Contenido:</p>
-    <p>Solicito arrendar los siguientes horarios por orden de prioridad:</p>
+    <h1>Solicitud de arriendo de cancha</h1>
+    <p><strong>Asunto:</strong> Solicitud de arriendo de cancha de [fútbol/futbol/tenis]</p>
+    <p><strong>Contenido:</strong></p>
     <ul>
       <li>[Día] [Horario]</li>
       <li>[Día] [Horario]</li>
       <li>[Día] [Horario]</li>
     </ul>
     <p>Saludos cordiales, [Nombre completo] - [Rol USM].</p>
+
+    <hr>
+
+    <h2>Consideraciones para el correo:</h2>
+    <p>Para el asunto, el usuario debe reemplazar "[fútbol/futbol/tenis]" por el deporte correspondiente para el cual desea arrendar la cancha.</p>
+    <p>Para el contenido del correo, el usuario debe reemplazar el [Día] y [Horario] por el día de la semana y el bloque el cual quiere arrendar la cancha.</p>
+    <p>Para el horario, se debe reemplazar escribiendo por ejemplo "Bloque 1-2".</p>
+
+    <p class="footnote">Este correo es solo una simulación. Por favor, no responda ni realice ninguna acción relacionada con este correo.</p>
   </body>
-	
-<head>
-  <title>Consideraciones para el correo:</title>
-</head>
-	<p>Para el asunto el usuario debe reemplazar "[fútbol/futbol/tenis]" por el deporte correspondiente para el cual desea arrendar la cancha.</p>
-	<p>Para el contenido del correo el usuario debe reemplazar el [Día] y [Horario] por el día de la semana y el bloque el cual quiere arrendar la cancha.</p>
-	<p>Para el horario se debe reemplazar escribiendo por ejemplo "Bloque 1-2".</p>
 </html>
 
