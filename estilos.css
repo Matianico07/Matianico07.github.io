@@ -17,6 +17,13 @@ header {
   height: auto;
 }
 
+img {
+  border: 1px solid #ccc;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 nav {
   background-color: #013566;
   display: flex;
@@ -88,13 +95,6 @@ footer p {
   font-size: 16px;
 }
 
-img {
-  border: 1px solid #ccc;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 p {
   text-align: justify;
 }
@@ -112,6 +112,13 @@ p {
     padding: 4px 0;
    }
 
+  img {
+  border: 2px solid #ccc;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  }
+  
   nav {
     width: 100%;
   }
