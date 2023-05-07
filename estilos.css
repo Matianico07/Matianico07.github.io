@@ -19,20 +19,20 @@ header {
   height: auto; /* Ajustar altura automáticamente */
 }
 
-nav{
+.menu{
   text-align:center;
   margin-top:9em;
 }
 
-nav ul{
+.menu ul{
   display:inline-block;
   margin:0;
   padding:0;
   list-style:none;
-  transform:nav(-@nav);
+  transform:skew(-@skew);
 }
 
-nav ul li{
+.menu ul li{
   background:#fff;
   float:left;
   border-right:1px solid #eee;
@@ -61,7 +61,7 @@ nav ul li{
     padding:1em 2em;
     color:inherit;
     text-decoration:none;
-    transform:nav(@skew);
+    transform:skew(@skew);
   }
 }
 
