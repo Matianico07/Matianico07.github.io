@@ -1,0 +1,137 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #013566;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  flex-wrap: wrap; /* Agregar regla para que los elementos se ajusten a una nueva línea */
+}
+
+#logo {
+  width: 150px; /* Ancho máximo para la imagen */
+  height: auto; /* Ajustar altura automáticamente */
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav li a {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+}
+
+nav li a.active {
+  color: #013566;
+  font-weight: bold;
+}
+
+.main {
+  margin: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Ajustar imagenes según resolución */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #013566;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Cambios para dispositivos móviles */
+@media screen and (max-width: 1080px) {
+
+  header {
+    padding: 4px;
+  }
+
+  #logo {
+    width: 120px;
+    height: auto;
+    padding: 8px 0;
+   }
+
+  nav {
+    width: 100%;
+    max-width: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  nav li {
+    width: 100%;
+    margin: 8px 0;
+    border-bottom: none;
+  }
+
+  nav li:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li a {
+    padding: 8px;
+  }
+
+  nav .icon {
+    display: block;
+    cursor: pointer;
+  }
