@@ -102,11 +102,13 @@ p {
 @media screen and (max-width: 1080px) {
 
   header {
+    max-width: 80%;
     padding: 4px;
   }
 
   #logo {
     width: 100px;
+    max-width: 20%;
     height: auto;
     padding: 4px 0;
    }
