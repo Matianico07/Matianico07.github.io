@@ -150,4 +150,8 @@ p {
     display: block;
     cursor: pointer;
   }
+  
+  article {
+   padding: 10px;
+  }
 }
