@@ -98,7 +98,7 @@ p {
 }
 
 /* Cambios para dispositivos móviles */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 720px) {
 
   header {
     font-size: 20px;
