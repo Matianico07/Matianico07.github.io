@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px;
+  padding: 4px;
 }
 
 #logo {
@@ -88,6 +88,13 @@ footer p {
   font-size: 16px;
 }
 
+img {
+  border: 1px solid #ccc;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 p {
   text-align: justify;
 }
@@ -100,9 +107,9 @@ p {
   }
 
   #logo {
-    width: 120px;
+    width: 100px;
     height: auto;
-    padding: 8px 0;
+    padding: 4px 0;
    }
 
   nav {
