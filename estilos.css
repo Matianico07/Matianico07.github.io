@@ -65,42 +65,6 @@ header {
   }
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  max-width: 400px;
-  background-color: #f1f1f1;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-nav ul {
-  list-style: none;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-nav li {
-  display: flex;
-  width: 100%;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-nav li a {
-  display: flex;
-  text-decoration: none;
-  color: #333;
-}
-
-nav li a.active {
-  color: #013566;
-  font-weight: bold;
-}
-
 .main {
   margin: 10px 0;
   display: flex;
