@@ -18,6 +18,7 @@ header {
 }
 
 nav {
+  background-color: #013566;
   display: flex;
   width: 100%;
   max-width: 400px;
@@ -36,6 +37,8 @@ nav ul {
 }
 
 nav li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
   display: flex;
   width: 100%;
   padding: 10px;
@@ -43,6 +46,7 @@ nav li {
 }
 
 nav li a {
+  color: #fff;
   display: flex;
   text-decoration: none;
   color: #333;
