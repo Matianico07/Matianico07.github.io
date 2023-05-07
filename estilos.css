@@ -64,7 +64,6 @@ nav li a.active {
 
 /* Ajustar imagenes según resolución */
 img {
-  border: 1px solid #ccc;
   display: block;
   max-width: 100%;
   height: auto;
