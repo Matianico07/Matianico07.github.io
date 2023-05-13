@@ -31,47 +31,23 @@ img {
 nav {
   background-color: #fff;
   display: flex;
-  width: 100%;
-  padding: 10px;
+  width: 90%;
   box-sizing: border-box;
 }
 
 nav ul {
   list-style: none;
   width: 100%;
-  padding: 0;
   display: flex;
-  padding: 5px;
   align-items: center;
 }
 
 nav li {
   border: 1px solid #ddd;
   border-radius: 4px;
-  display: flex;
   width: 100%;
   padding: 10px;
   border-bottom: 1px solid #ddd;
-}
-
-nav li a {
-  color: #fff;
-  display: flex;
-  text-decoration: none;
-  color: #333;
-}
-
-nav li a.active {
-  color: #fff;
-  font-weight: bold;
-}
-
-.main {
-  margin: 48px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 article {
