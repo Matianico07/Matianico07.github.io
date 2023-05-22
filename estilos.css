@@ -99,7 +99,7 @@ p {
 }
 
   header {
-    font-size: 10px;
+    font-size: auto;
     padding: 4px;
   }
 
