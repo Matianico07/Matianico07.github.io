@@ -94,7 +94,7 @@ p {
 @media screen and (max-width: 1080px) {
   
   body {
-  font-size: 15px;
+  font-size: auto;
 }
 
   header {
