@@ -91,6 +91,10 @@ p {
   text-align: justify;
 }
 
+nav li:first-child {
+  margin-left: 0;
+}
+
 /* Cambios para dispositivos móviles */
 @media screen and (max-width: 1080px) {
   
