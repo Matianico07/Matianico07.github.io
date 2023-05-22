@@ -101,6 +101,7 @@ p {
 
   header {
     font-size: auto;
+    max-width: 70%;
     padding: 4px;
   }
 
