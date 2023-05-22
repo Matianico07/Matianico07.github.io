@@ -95,11 +95,11 @@ p {
 @media screen and (max-width: 1080px) {
   
   body {
-  font-size: auto;
-}
+    font-size: initial;
+  }
 
   header {
-    font-size: auto;
+    font-size: initial;
     max-width: 70%;
     padding: 4px;
   }
